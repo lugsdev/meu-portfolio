@@ -47,9 +47,9 @@ function NavBarMenu() {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href="#"><img src={github} alt=""/></a>
-                <a href="#"><img src={linkedin} alt=""/></a>
-                <a href="#"><img src={instagram} alt=""/></a>
+                <a href="https://github.com/lugsdev"><img src={github} alt="Github"/></a>
+                <a href="https://www.linkedin.com/in/lugsdev/"><img src={linkedin} alt="LinkedIn"/></a>
+                <a href="https://www.instagram.com/lucas.lmda"><img src={instagram} alt="Instagram"/></a>
             </div>
             <button className='vvd' onClick={() => console.log("connect")}><span>Let`s Connect</span></button>
           </span>
