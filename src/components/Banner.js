@@ -7,10 +7,10 @@ export const Banner = () =>{
 
     const [loopNum, setLoopNum ] = useState(0)
     const [isDeleting, setIsDeleting] = useState(false)
-    const toRotate = ["Web Developer", "Web Designer", "UX/UI Designer"]
+    const toRotate = ["<Front-End/>", "<Web Developer/>"]
     const [text, setText] = useState("")
     const [delta, setDelta] = useState(200 - Math.random() *100)
-    const period= 2000
+    const period= 2200
 
     useEffect(() =>{
         let ticker = setInterval(() =>{
@@ -48,7 +48,7 @@ export const Banner = () =>{
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"> Welcome to my Portfolio</span>
-                        <h1>{`Olá, eu sou Front-End e `}<span className="wrap">{text}</span></h1>
+                        <h1>{`Olá, eu sou o Lucas. `}<br></br><span className="wrap">{text}</span></h1>
                         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived </p>
                         <button onClick={() => console.log("connect")}>Let`s Connect <ArrowRightCircle size={25} /></button>
                     </Col> 

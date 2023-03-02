@@ -285,6 +285,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+.wrap{
+  background: -webkit-linear-gradient(46deg, #840392, #5c1bb6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
