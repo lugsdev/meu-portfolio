@@ -49,7 +49,7 @@ export const Banner = () =>{
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"> Welcome to my Portfolio</span>
                         <h1>{`Olá, eu sou o Lucas. `}<br></br><span className="wrap">{text}</span></h1>
-                        <p> Desenvolvimento de Web Sites com HTML5, CSS3, JavaScript, ReactJS, Bootstrap, Wordpress e Elementor. Projetos com responsividade e otimização. Conhecimento em ferramentas de edição de imagens e de prototipagem como Photoshop, Illustrator, Figma e AdobeXD. </p>
+                        <p> Desenvolvimento de Web Sites e Landing Pages. Projetos com responsividade e otimização.</p>
                         <button onClick={() => console.log("connect")}>Let`s Connect <ArrowRightCircle size={25} /></button>
                     </Col> 
                     <Col xs={12} md={6} xl={5}>

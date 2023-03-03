@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -11,6 +14,7 @@ html{
 
 body{
   font-weight: 400;
+  font-family: 'Rubik', sans-serif;
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
@@ -19,6 +23,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
+  font-family: 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -31,6 +36,7 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
+  font-family: 'Rubik', sans-serif;
 }
 
 a:hover {
@@ -532,10 +538,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  /* background-image: url('./assets/img/footer-bg.png'); */
+  background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 .newsletter-bx {
   background: #FFFFFF;
